@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="md_theme_dark_onPrimary">#002E6C</color>
+    <color name="md_theme_dark_onPrimaryContainer">#D6E4FF</color>
+    <color name="md_theme_dark_onSurface">#E2E2E9</color>
+    <color name="md_theme_dark_primary">#ADC6FF</color>
+    <color name="md_theme_dark_primaryContainer">#00429A</color>
+    <color name="md_theme_dark_surface">#111318</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_onPrimaryContainer">#001945</color>
+    <color name="md_theme_light_onSurface">#191C20</color>
+    <color name="md_theme_light_primary">#1565C0</color>
+    <color name="md_theme_light_primaryContainer">#D6E4FF</color>
+    <color name="md_theme_light_surface">#F8F9FF</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="action_swap">⇅ Swap</string>
+    <string name="app_name">Currency Converter</string>
+    <string name="hint_amount">0.00</string>
+    <string name="label_amount">Enter Amount</string>
+    <string name="label_from">From</string>
+    <string name="label_result">Converted Amount</string>
+    <string name="label_to">To</string>
+    <string name="result_invalid">Invalid amount</string>
+    <string name="result_placeholder">—</string>
+    <string name="setting_dark_mode">Dark Mode</string>
+    <string name="setting_theme">Appearance</string>
+    <string name="theme_dark">Dark theme is active</string>
+    <string name="theme_light">Light theme is active</string>
+    <string name="title_settings">Settings</string>
+    <style name="Theme.CurrencyConverter" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/md_theme_light_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_light_onPrimaryContainer</item>
+        <item name="colorSurface">@color/md_theme_light_surface</item>
+        <item name="colorOnSurface">@color/md_theme_light_onSurface</item>
+    </style>
+</resources>

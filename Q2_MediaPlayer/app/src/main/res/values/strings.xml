@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Q2 Media Player</string>
+    <string name="audio_section">Audio (from disk)</string>
+    <string name="video_section">Video (stream from URL)</string>
+    <string name="open_file">Open file</string>
+    <string name="open_url">Open URL</string>
+    <string name="video_url_hint">Video stream URL (HTTPS MP4)</string>
+    <string name="sample_video_url" translatable="false">https://xyz.mp4</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="restart">Restart</string>
+    <string name="status_idle">Use Open file for audio or enter URL and Open URL for video, then Play.</string>
+    <string name="enter_url">Enter a video URL first.</string>
+    <string name="pick_audio_first">Pick an audio file first.</string>
+    <string name="playing_audio">Playing audio…</string>
+    <string name="playing_video">Playing video…</string>
+    <string name="paused">Paused</string>
+    <string name="stopped">Stopped</string>
+    <string name="audio_finished">Audio finished</string>
+    <string name="cannot_open_audio">Could not open audio file.</string>
+    <string name="video_error">Could not play video. Try HTTPS URL or check network.</string>
+    <string name="audio_selected">Audio: %1$s</string>
+    <string name="video_url_set">Video URL set. Press Play.</string>
+</resources>

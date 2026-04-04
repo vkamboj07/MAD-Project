@@ -1,0 +1,30 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_500
+color purple_700
+color teal_200
+color white
+id btnCaptureNow
+id btnCapturePhoto
+id btnDelete
+id btnOpenGallery
+id btnSelectFolder
+id imagePreview
+id imageThumb
+id recyclerView
+id toolbar
+id tvDate
+id tvEmpty
+id tvName
+id tvSelectedFolder
+id tvSize
+id tvUri
+layout activity_camera
+layout activity_gallery
+layout activity_image_detail
+layout activity_main
+layout item_image
+string app_name
+style Theme.PhotoGalleryCameraApp
+xml file_paths

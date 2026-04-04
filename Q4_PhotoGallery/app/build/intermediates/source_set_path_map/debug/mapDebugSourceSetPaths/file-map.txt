@@ -1,0 +1,36 @@
+com.example.photogallerycamera.app-jetified-annotation-experimental-1.4.0-0 C:\Users\vaibh\.gradle\caches\9.0-milestone-1\transforms\0596bbf0a9c9727f25d7cfe8341ef3e6\transformed\jetified-annotation-experimental-1.4.0\res
+com.example.photogallerycamera.app-jetified-emoji2-views-helper-1.3.0-1 C:\Users\vaibh\.gradle\caches\9.0-milestone-1\transforms\11c8ee19a63d0496104275f5e7da809d\transformed\jetified-emoji2-views-helper-1.3.0\res
+com.example.photogallerycamera.app-appcompat-1.7.0-2 C:\Users\vaibh\.gradle\caches\9.0-milestone-1\transforms\11ebe0842055bf9f411d11ed24cc51e9\transformed\appcompat-1.7.0\res
+com.example.photogallerycamera.app-fragment-1.5.4-3 C:\Users\vaibh\.gradle\caches\9.0-milestone-1\transforms\3524639f4fc22a0b02173fded1f04a13\transformed\fragment-1.5.4\res
+com.example.photogallerycamera.app-jetified-customview-poolingcontainer-1.0.0-4 C:\Users\vaibh\.gradle\caches\9.0-milestone-1\transforms\382fec6bc51c9af65010fed1eb25de8e\transformed\jetified-customview-poolingcontainer-1.0.0\res
+com.example.photogallerycamera.app-jetified-glide-4.16.0-5 C:\Users\vaibh\.gradle\caches\9.0-milestone-1\transforms\4bd701687425e57b0d521bac7ac22361\transformed\jetified-glide-4.16.0\res
+com.example.photogallerycamera.app-recyclerview-1.3.2-6 C:\Users\vaibh\.gradle\caches\9.0-milestone-1\transforms\56de6ad07c99d97abe841c64f4d5ce11\transformed\recyclerview-1.3.2\res
+com.example.photogallerycamera.app-jetified-activity-1.9.2-7 C:\Users\vaibh\.gradle\caches\9.0-milestone-1\transforms\5ab6cf15e313db9ddee2742fe8a100ea\transformed\jetified-activity-1.9.2\res
+com.example.photogallerycamera.app-drawerlayout-1.1.1-8 C:\Users\vaibh\.gradle\caches\9.0-milestone-1\transforms\643b588476afdff91b5e69ce045f6744\transformed\drawerlayout-1.1.1\res
+com.example.photogallerycamera.app-core-1.13.0-9 C:\Users\vaibh\.gradle\caches\9.0-milestone-1\transforms\673ff0694ba9d9e584edc67e230a521e\transformed\core-1.13.0\res
+com.example.photogallerycamera.app-constraintlayout-2.1.4-10 C:\Users\vaibh\.gradle\caches\9.0-milestone-1\transforms\6c74450eb6350f6f4cb2e3b3da193a4f\transformed\constraintlayout-2.1.4\res
+com.example.photogallerycamera.app-lifecycle-viewmodel-2.6.2-11 C:\Users\vaibh\.gradle\caches\9.0-milestone-1\transforms\78befc9b6930154cdd2bacad8dc24bd3\transformed\lifecycle-viewmodel-2.6.2\res
+com.example.photogallerycamera.app-jetified-core-ktx-1.13.0-12 C:\Users\vaibh\.gradle\caches\9.0-milestone-1\transforms\7b349ecc6c4a8262f7c37ba8a6533779\transformed\jetified-core-ktx-1.13.0\res
+com.example.photogallerycamera.app-jetified-viewpager2-1.1.0-beta02-13 C:\Users\vaibh\.gradle\caches\9.0-milestone-1\transforms\7e4220d20fbbb915293746c101ebab12\transformed\jetified-viewpager2-1.1.0-beta02\res
+com.example.photogallerycamera.app-transition-1.5.0-14 C:\Users\vaibh\.gradle\caches\9.0-milestone-1\transforms\9434226f455fc6a2db009b68a88e6431\transformed\transition-1.5.0\res
+com.example.photogallerycamera.app-core-runtime-2.2.0-15 C:\Users\vaibh\.gradle\caches\9.0-milestone-1\transforms\9784c639f0868808d4649d2f14a00ff2\transformed\core-runtime-2.2.0\res
+com.example.photogallerycamera.app-coordinatorlayout-1.1.0-16 C:\Users\vaibh\.gradle\caches\9.0-milestone-1\transforms\97dd9923ff320e2aa6c0d5c6ecf7e5b6\transformed\coordinatorlayout-1.1.0\res
+com.example.photogallerycamera.app-jetified-savedstate-1.2.1-17 C:\Users\vaibh\.gradle\caches\9.0-milestone-1\transforms\9d9e3afbbd4267ba8b059490f8daef49\transformed\jetified-savedstate-1.2.1\res
+com.example.photogallerycamera.app-jetified-lifecycle-process-2.6.2-18 C:\Users\vaibh\.gradle\caches\9.0-milestone-1\transforms\a1ae651125696512ecff90865981b97b\transformed\jetified-lifecycle-process-2.6.2\res
+com.example.photogallerycamera.app-jetified-emoji2-1.3.0-19 C:\Users\vaibh\.gradle\caches\9.0-milestone-1\transforms\a1f2c848858e7000e3d46d3ff49296cc\transformed\jetified-emoji2-1.3.0\res
+com.example.photogallerycamera.app-cardview-1.0.0-20 C:\Users\vaibh\.gradle\caches\9.0-milestone-1\transforms\a60f99ee4e9e1702d5bda9ef0a2ea8bd\transformed\cardview-1.0.0\res
+com.example.photogallerycamera.app-jetified-lifecycle-viewmodel-savedstate-2.6.2-21 C:\Users\vaibh\.gradle\caches\9.0-milestone-1\transforms\b33cedb8807debf0f1719936fe21e8a4\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\res
+com.example.photogallerycamera.app-jetified-appcompat-resources-1.7.0-22 C:\Users\vaibh\.gradle\caches\9.0-milestone-1\transforms\baada87f07bb1ab3e9ccf3a240d2e28b\transformed\jetified-appcompat-resources-1.7.0\res
+com.example.photogallerycamera.app-lifecycle-livedata-core-2.6.2-23 C:\Users\vaibh\.gradle\caches\9.0-milestone-1\transforms\bf6e6063de2ded215c5d9937c82c91b6\transformed\lifecycle-livedata-core-2.6.2\res
+com.example.photogallerycamera.app-lifecycle-livedata-2.6.2-24 C:\Users\vaibh\.gradle\caches\9.0-milestone-1\transforms\c355687d2646358de5a585b186efec5d\transformed\lifecycle-livedata-2.6.2\res
+com.example.photogallerycamera.app-jetified-startup-runtime-1.1.1-25 C:\Users\vaibh\.gradle\caches\9.0-milestone-1\transforms\d993d361c9b20c7a8882a80c46fe7c2d\transformed\jetified-startup-runtime-1.1.1\res
+com.example.photogallerycamera.app-jetified-profileinstaller-1.3.1-26 C:\Users\vaibh\.gradle\caches\9.0-milestone-1\transforms\e5efa6f68dca4fb38001bf87efd93520\transformed\jetified-profileinstaller-1.3.1\res
+com.example.photogallerycamera.app-lifecycle-runtime-2.6.2-27 C:\Users\vaibh\.gradle\caches\9.0-milestone-1\transforms\e79c6a8e9ef4b299db004b648cba0a14\transformed\lifecycle-runtime-2.6.2\res
+com.example.photogallerycamera.app-material-1.12.0-28 C:\Users\vaibh\.gradle\caches\9.0-milestone-1\transforms\ecf85a17193de4684e70ccbc25684876\transformed\material-1.12.0\res
+com.example.photogallerycamera.app-pngs-29 C:\Users\vaibh\OneDrive\Desktop\mad assignment-main\Q4_PhotoGallery\app\build\generated\res\pngs\debug
+com.example.photogallerycamera.app-resValues-30 C:\Users\vaibh\OneDrive\Desktop\mad assignment-main\Q4_PhotoGallery\app\build\generated\res\resValues\debug
+com.example.photogallerycamera.app-packageDebugResources-31 C:\Users\vaibh\OneDrive\Desktop\mad assignment-main\Q4_PhotoGallery\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.photogallerycamera.app-packageDebugResources-32 C:\Users\vaibh\OneDrive\Desktop\mad assignment-main\Q4_PhotoGallery\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.photogallerycamera.app-debug-33 C:\Users\vaibh\OneDrive\Desktop\mad assignment-main\Q4_PhotoGallery\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.photogallerycamera.app-debug-34 C:\Users\vaibh\OneDrive\Desktop\mad assignment-main\Q4_PhotoGallery\app\src\debug\res
+com.example.photogallerycamera.app-main-35 C:\Users\vaibh\OneDrive\Desktop\mad assignment-main\Q4_PhotoGallery\app\src\main\res
