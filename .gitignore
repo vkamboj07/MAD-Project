@@ -1,3 +1,7 @@
+# Large binary/archive files
+**/*.zip
+**/gradle-extract/
+
 # Android build artifacts
 **/build/
 **/.gradle/
