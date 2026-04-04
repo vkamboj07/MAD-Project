@@ -1,0 +1,15 @@
+# Android build artifacts
+**/build/
+**/.gradle/
+**/local.properties
+**/*.apk
+**/*.aab
+**/*.ap_
+**/*.dex
+
+# IDE files
+**/.idea/
+**/*.iml
+
+# Gradle wrapper jars
+**/gradle/wrapper/gradle-wrapper.jar
