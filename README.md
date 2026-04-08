@@ -103,7 +103,7 @@ A modern gallery app with camera integration.
 
 ### ✅ Prerequisites
 
-* Android Studio **Hedgehog or newer**
+* Android Studio **Outer 2 or newer**
 * Android SDK **24+**
 * Emulator or physical device
 
