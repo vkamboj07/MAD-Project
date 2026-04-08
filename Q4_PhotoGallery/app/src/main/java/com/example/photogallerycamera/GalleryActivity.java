@@ -6,7 +6,6 @@ import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,7 +22,7 @@ import java.util.List;
 public class GalleryActivity extends AppCompatActivity implements ImageAdapter.OnImageClickListener {
 
     private RecyclerView recyclerView;
-    private TextView tvEmpty;
+    private View tvEmpty;
     private ImageAdapter adapter;
     private final List<Uri> imageUris = new ArrayList<>();
 
@@ -40,7 +39,7 @@ public class GalleryActivity extends AppCompatActivity implements ImageAdapter.O
         toolbar.setNavigationOnClickListener(v -> finish());
 
         recyclerView = findViewById(R.id.recyclerView);
-        tvEmpty = findViewById(R.id.tvEmpty);
+        tvEmpty = findViewById(R.id.layoutEmpty);
 
         recyclerView.setLayoutManager(new GridLayoutManager(this, 3));
         adapter = new ImageAdapter(imageUris, this);
