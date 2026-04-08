@@ -1,81 +1,179 @@
-# 🚀 MAD Project – Android Applications Collection
+# 📱 MAD Project — Mobile Application Development
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Platform-Android-green?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Language-Java-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/IDE-Android%20Studio-orange?style=for-the-badge"/>
-</p>
+A collection of Android applications built using **Java** to demonstrate core Android development concepts, APIs, and UI practices.
+
+This repository contains **four standalone Android projects**, each focusing on a different aspect of mobile application development.
 
 ---
 
-## 📌 Overview
-This repository contains four Android applications developed as part of the **Mobile Application Development (MAD)** assignment.
+## 🚀 Projects Overview
 
-Each project demonstrates different Android concepts including UI design, media handling, sensors, and file management.
-
----
-
-## 📂 Projects
-
-### 🔹 Q1 – Currency Converter
-**Folder:** `Q1_Currency_Convertor`
-
-**Features:**
-- Convert between INR, USD, EUR, and JPY
-- Simple and clean UI
-- Real-time conversion
-- Settings page with Light/Dark theme toggle
+| #      | Project            | Description                                    |
+| ------ | ------------------ | ---------------------------------------------- |
+| **Q1** | Currency Converter | Offline currency conversion with theme support |
+| **Q2** | Media Player       | Audio playback + video streaming with controls |
+| **Q3** | Sensor Reader      | Real-time hardware sensor data display         |
+| **Q4** | Photo Gallery      | Camera capture + gallery browsing app          |
 
 ---
 
-### 🔹 Q2 – Media Player
-**Folder:** `Q2_MediaPlayer`
+## 📌 Q1 — Currency Converter
 
-**Features:**
-- Play audio from device storage
-- Stream video from URL
-- Media controls: Play, Pause, Stop, Restart
-- Open file and URL options
+A lightweight offline currency converter supporting multiple currencies.
 
----
+### ✨ Features
 
-### 🔹 Q3 – Sensor Reader
-**Folder:** `Q3_SensorReader`
+* Convert between **INR, USD, JPY, EUR**
+* Real-time conversion as you type
+* Swap currencies instantly
+* Light/Dark theme toggle
+* Persistent theme settings using `SharedPreferences`
 
-**Features:**
-- Displays real-time sensor data:
-  - Accelerometer
-  - Light Sensor
-  - Proximity Sensor
-- Dynamic updates on screen
+### 📂 Key Files
+
+* `Rates.java` — Static exchange rate definitions
+* `Currency.java` — Enum for supported currencies
+* `SettingsActivity.java` — Theme settings UI
+* `ThemePrefs.java` — Preference handling
 
 ---
 
-### 🔹 Q4 – Photo Gallery App
-**Folder:** `Q4_PhotoGallery`
+## 🎵 Q2 — Media Player
 
-**Features:**
-- Capture photos using device camera
-- Save images to a selected folder
-- Display images in grid layout
-- View image details:
-  - Name
-  - Path
-  - Size
-  - Date taken
-- Delete image with confirmation dialog
+A multimedia player supporting both audio playback and video streaming.
 
----
+### ✨ Features
 
-## 🛠 Tech Stack
-- Language: Java
-- IDE: Android Studio
-- UI: XML (Material Design)
-- Version Control: Git & GitHub
+* Play audio from local storage
+* Stream video via URL (`VideoView`)
+* Playback controls: **Play / Pause / Stop / Restart**
+* Interactive **SeekBar** with time tracking
+* Auto show/hide player controls
+
+### 📂 Key Files
+
+* `MainActivity.java` — Core playback logic
+* `activity_main.xml` — Player UI layout
 
 ---
 
-## ⚙️ Setup Instructions
+## 📡 Q3 — Sensor Reader
+
+Displays real-time data from device sensors.
+
+### ✨ Features
+
+* Accelerometer (**X, Y, Z values**)
+* Light sensor (**lux**)
+* Proximity sensor (**distance**)
+* Handles missing sensors gracefully
+* Efficient lifecycle handling (`onResume` / `onPause`)
+
+### 📂 Key Files
+
+* `MainActivity.java` — Sensor event handling
+* `activity_main.xml` — UI layout for sensor data
+
+---
+
+## 📷 Q4 — Photo Gallery Camera
+
+A modern gallery app with camera integration.
+
+### ✨ Features
+
+* Select folders from device storage
+* Capture photos using camera (`FileProvider`)
+* Grid-based gallery view
+* Full image preview with metadata
+* Delete images from app
+* Clean **Material3 UI**
+
+### 📂 Key Files
+
+* `MainActivity.java` — Navigation & folder selection
+* `CameraActivity.java` — Camera integration
+* `GalleryActivity.java` — Image grid
+* `ImageDetailActivity.java` — Image preview & metadata
+* `ImageAdapter.java` — RecyclerView adapter (Glide)
+
+---
+
+## ⚙️ Getting Started
+
+### ✅ Prerequisites
+
+* Android Studio **Hedgehog or newer**
+* Android SDK **24+**
+* Emulator or physical device
+
+### ▶️ Run the Project
 
 ```bash
-git clone https://github.com/vkamboj07/mobile_dev.git
+git clone https://github.com/vkamboj07/MAD-Project.git
+```
+
+1. Open **Android Studio**
+2. Click **Open Project**
+3. Select any project folder (e.g. `Q1_Currency_Convertor`)
+4. Wait for **Gradle Sync**
+5. Click **Run ▶**
+
+> ⚠️ Each project is independent — open them individually.
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology                    | Purpose                   |
+| ----------------------------- | ------------------------- |
+| **Java**                      | Core development language |
+| **Android SDK 35**            | Target platform           |
+| **Material Components**       | UI design                 |
+| **ViewBinding / DataBinding** | Safer view handling       |
+| **Glide**                     | Image loading (Q4)        |
+| **MediaPlayer / VideoView**   | Media playback (Q2)       |
+| **SensorManager**             | Sensor data (Q3)          |
+| **FileProvider**              | Secure file sharing (Q4)  |
+
+---
+
+## 📁 Project Structure
+
+```
+MAD-Project/
+├── Q1_Currency_Convertor/
+├── Q2_MediaPlayer/
+├── Q3_SensorReader/
+└── Q4_PhotoGallery/
+```
+
+---
+
+## 💡 Highlights
+
+* Clean and modular project structure
+* Covers multiple Android domains:
+
+  * UI/UX
+  * Sensors
+  * Media
+  * Storage & Files
+* Beginner-friendly yet practical implementations
+
+---
+
+## 📜 License
+
+This project is for educational purposes.
+
+---
+
+## 👨‍💻 Author
+
+**Vaibhav Kamboj**
+GitHub: https://github.com/vkamboj07
+
+---
+
+⭐ If you found this helpful, consider giving the repository a star!
