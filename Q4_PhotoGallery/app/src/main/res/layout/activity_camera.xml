@@ -3,67 +3,70 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@android:color/white">
+    android:background="@color/surface"
+    android:orientation="vertical">
 
-    <!-- Toolbar -->
-    <androidx.appcompat.widget.Toolbar
+    <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="#3F51B5"
+        android:background="@color/purple_500"
+        app:navigationIcon="@android:drawable/ic_media_previous"
         app:title="Capture Photo"
-        app:titleTextColor="@android:color/white"
-        app:elevation="4dp"/>
+        app:titleTextColor="@color/white" />
 
-    <!-- Center Content -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
-        android:padding="24dp">
+        android:padding="32dp">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:gravity="center"
-            android:padding="24dp">
+        <!-- Camera icon card -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginBottom="32dp"
+            app:cardBackgroundColor="@color/purple_100"
+            app:cardCornerRadius="70dp"
+            app:cardElevation="4dp">
 
-            <!-- Title -->
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Take a Photo"
-                android:textSize="22sp"
-                android:textStyle="bold"
-                android:layout_marginBottom="8dp"
-                android:textColor="@android:color/black"/>
-
-            <!-- Subtitle -->
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Click below to open camera"
-                android:textSize="14sp"
-                android:textColor="#666666"
-                android:layout_marginBottom="24dp"/>
-
-            <!-- Button -->
-            <Button
-                android:id="@+id/btnCaptureNow"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:text="Capture Photo"
-                android:textAllCaps="false"
-                android:textSize="16sp"
-                android:backgroundTint="#3F51B5"
-                android:textColor="@android:color/white"
-                android:elevation="4dp"/>
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="📷"
+                android:textSize="56sp" />
+        </com.google.android.material.card.MaterialCardView>
 
-        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Take a Photo"
+            android:textColor="@color/on_surface"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="40dp"
+            android:gravity="center"
+            android:text="Tap the button below to open your camera and capture a new photo."
+            android:textColor="@color/on_surface_variant"
+            android:textSize="14sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCaptureNow"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Open Camera"
+            android:textSize="16sp"
+            app:cornerRadius="16dp"
+            app:icon="@android:drawable/ic_menu_camera"
+            app:iconGravity="textStart"
+            app:iconPadding="8dp" />
 
     </LinearLayout>
-
 </LinearLayout>
